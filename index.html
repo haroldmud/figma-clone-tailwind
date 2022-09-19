@@ -7,7 +7,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Tailwind practice</title>
 </head>
-<body class="border-2 p-0 m-0">
+<body class="p-0 m-0">
     <header class="w-full mt-4 flex place-content-around ">
       <div class="flex md:mt">
         <img class="md:w-5 w-8" src="./icons/Vector.svg" alt="logos">
@@ -78,8 +78,8 @@
           </div>
           <img class="md:mt-20 md:mr-32 w-full  md:w-82 md:h-72" src="./images/programmer.png" alt="">
         </div>
-  </section>
-  <section style="background-color: #f4f4f4;">
+    </section>
+  <section class="md:pb-32 pb-20" style="background-color: #f4f4f4;">
     <section class="mt-12 w-full md:mb-12 mb-4"> 
       <div class="flex justify-center">
         <h2 class="w-56 leading-8 text-xl font-bold text-center md:my-auto md:mx-0">Choose Your Plan</h2>
@@ -111,7 +111,7 @@
       <div class="border-2 md:w-auto w-full flex flex-row md:flex md:flex-col md:mb-0 mb-4 box-border hover:border-red-500 rounded-xl md:p-10 mr-12">
         <img src="./images/openGift.png" class=" md:ml-0 ml-6 md:w-auto md:h-auto w-16 h-20" alt="opened gift"><br>
         <div class="md:ml-0 ml-8">
-          <h2 class="font-bold md:text-center md:mb-4 md:ml-0 ml-4 ">Free Plan</h2>
+          <h2 class="font-bold md:text-center md:mb-4 md:ml-0 ml-4 ">Standard Plan</h2>
           <div class=" w-full">
             <span class="flex md:ml-2"><img class="w-2 h-2 mt-1" src="./icons/vrwey.png" alt="vrwey.png"><p class="text-xs ml-2">Unlimited bandwidth</p></span>
             <span class="flex md:ml-2"><img class="w-2 h-2 mt-1" src="./icons/vrwey.png" alt="vrwey.png"><p class="text-xs ml-2">Uncrypted connexion</p></span>
@@ -122,14 +122,14 @@
           </div>
         </div>
         <div class="md:mt-2 h-12 align-center mt-6 md:ml-0 ml-6">
-          <h2 class="text-center font-bold md:mb-0"><i>Free</i></h2>
+          <h2 class="text-center md:mb-0"><i><span class="font-bold">$9</span>/mo</i></h2>
           <button class="md:ml-0 md:ml-0"><a class="hover:bg-red-500 hover:text-white text-center text-xs text-red-500 font-bold md:ml-8  border-red-300 border-2 rounded-2xl  px-4 " href="#">Sign Up</a></button>
         </div>
       </div>
       <div class="border-2 md:w-auto w-full flex flex-row md:flex md:flex-col md:mb-0 mb-4 box-border hover:border-red-500 rounded-xl md:p-10 mr-12">
         <img src="./images/openGift.png" class=" md:ml-0 ml-6 md:w-auto md:h-auto w-16 h-20" alt="opened gift"><br>
         <div class="md:ml-0 ml-8">
-          <h2 class="font-bold md:text-center md:mb-4 md:ml-0 ml-4 ">Free Plan</h2>
+          <h2 class="font-bold md:text-center md:mb-4 md:ml-0 ml-4 ">Premium Plan</h2>
           <div class=" w-full">
             <span class="flex md:ml-2"><img class="w-2 h-2 mt-1" src="./icons/vrwey.png" alt="vrwey.png"><p class="text-xs ml-2">Unlimited bandwidth</p></span>
             <span class="flex md:ml-2"><img class="w-2 h-2 mt-1" src="./icons/vrwey.png" alt="vrwey.png"><p class="text-xs ml-2">Uncrypted connexion</p></span>
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="md:mt-2 h-12 align-center mt-6 md:ml-0 ml-6">
-          <h2 class="text-center font-bold md:mb-0"><i>Free</i></h2>
+          <h2 class="text-center md:mb-0"><i><span class="font-bold">$12</span>/mo</i></h2>
           <button class="md:ml-0 md:ml-0"><a class="hover:bg-red-500 hover:text-white text-center text-xs text-red-500 font-bold md:ml-8  border-red-300 border-2 rounded-2xl  px-4 " href="#">Sign Up</a></button>
         </div>
       </div>
@@ -177,6 +177,164 @@
       </div>
 
     </section>
-  </section>  
+
+    <section class="mt-12 w-full md:mb-12 mb-4"> 
+      <div class="flex justify-center">
+        <h2 class="w-56 leading-8 text-xl font-bold text-center md:my-auto md:mx-0">
+          Trusted by Thousand of Happy Customer
+        </h2>
+      </div>
+      <div class="flex justify-center">
+        <p class="mt-2 w-72 text-xs text-center md:w-4/12">
+          There are stories of our customers who have joined us with great pleasure
+          when using this crazy feature.
+        </p>
+      </div>
+    </section>
+
+    <section class="md:flex md:flex-row flex flex-col md:ml-18 justify-center justify-around mb-12">
+      <div class="border-2 rounded-2xl hover:border-red-500 md:w-96 p-4 ">
+        <div class="flex justify-between" >
+          <img src="./images/robert.png" alt="robert">
+          <div class="pr-32">
+            <h2 class="font-bold">Viezh Robert</h2>
+            <p class="text-xs">Warsaw, Poland</p>
+          </div>
+          <div class="flex h-4 mt-4">
+            <h2 class="text-xs font-bold mr-2">4.5</h2> 
+            <img src="./icons/star.png" alt="star" style="width: auto; height:18 ">
+          </div>
+        </div>
+        <div>
+          <p>
+            "Wow... I am very happy to use  this VPN, it turned out to be more than 
+            my expectations and so far there have been no problems.
+            LaslesVPN always the best.""
+          </p>
+        </div>
+      </div>
+      <div class="border-2 rounded-2xl hover:border-red-500 md:w-96 p-4 md:my-0 my-4">
+        <div class="flex justify-between" >
+          <img src="./images/yessica.png" alt="robert">
+          <div class="pr-32">
+            <h2 class="font-bold">Yessica Christy</h2>
+            <p class="text-xs">Shanxi, China</p>
+          </div>
+          <div class="flex h-4 mt-4">
+            <h2 class="text-xs font-bold mr-2">4.5</h2>
+            <img src="./icons/star.png" alt="star" style="width: auto; height:18 ">
+          </div>
+        </div>
+        <div>
+          <p>
+            "Wow... I am very happy to use  this VPN, it turned out to be more than 
+            my expectations and so far there have been no problems.
+            LaslesVPN always the best.""
+          </p>
+        </div>
+      </div>
+      <div class="border-2 rounded-2xl hover:border-red-500 md:w-96 p-4 ">
+        <div class="flex justify-between" >
+          <img src="./images/kim.png" alt="robert">
+          <div class="pr-32">
+            <h2 class="font-bold">Viezh Robert</h2>
+            <p class="text-xs">Warsaw, Poland</p>
+          </div>
+          <div class="flex h-4 mt-4">
+            <h2 class="text-xs font-bold mr-2">4.5</h2>
+            <img src="./icons/star.png" alt="star" style="width: auto; height:18 ">
+          </div>
+        </div>
+        <div>
+          <p>
+            "Wow... I am very happy to use  this VPN, it turned out to be more than 
+            my expectations and so far there have been no problems.
+            LaslesVPN always the best.""
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:flex hidden justify-around">
+      <div class="flex h-2 w-20 justify-around mt-4">
+        <img src="./icons/Union.png" alt="icon" width="20px" height="8px">
+        <img src="./icons/circle.png" alt="icon" width="8px" height="8px">
+        <img src="./icons/circle.png" alt="icon" width="8px" height="8px">
+        <img src="./icons/circle.png" alt="icon" width="8px" height="8px">
+      </div>
+      <div class="flex height-4 relative">
+        <img src="./icons/left.png" class="absolute" alt="icon" height="32px" width="32px">
+        <img src="./icons/right.png" class="ml-12" alt="icon" height="35px" width="35px">
+      </div>
+    </section>
+  </section>
+    <section class="md:flex hidden justify-center absolute w-full md:top-auto top-80" style="top: 191rem">
+      <div style="background-color: white" class="py-2 rounded-2xl  text-center md:text-left md:flex md:flex-row flex flex-col md:w-7/12 md:justify-center" style="background-color: #f4f4f4;">
+        <div class="md:w-5/12 md:mr-44">
+          <h2 class="font-bold text-2xl md:mb-4">Subscribe Now for Get Special Features!</h2>
+          <p class="text-xs">Let's subscribe with us and find the fun.</p>
+        </div>
+        <button class="align-center"><a class="hover:shadow-lg hover:shadow-red-500/50 bg-red-500 px-4 py-2 rounded-xl text-white  h-12" href="#">Subscribe Now</a></button>
+      </div>
+    </section>
+    <section class=" md:hidden flex justify-center absolute w-full md:top-auto top-80" style="top: 200rem">
+      <div style="background-color: white" class="rounded-2xl w-4/5 text-center md:text-left md:flex md:flex-row flex flex-col md:w-2/4" style="background-color: #f4f4f4;">
+        <div class="md:w-5/12 md:mr-44 md:ml-4 md:mb-0 mb-2">
+          <h2 class="font-bold text-xl px-2 md:mb-4 mb-4">Subscribe Now for Get Special Features!</h2>
+          <p class="text-xs">Let's subscribe with us and find the fun.</p>
+        </div>
+        <button class="align-center mb-2"><a class="hover:shadow-lg hover:shadow-red-500/50 bg-red-500 px-4 text-xs rounded-xl text-white  h-12" href="#">Subscribe Now</a></button>
+      </div>
+    </section>
+  <footer style="background-color:#cacaca51;" class="md:flex md:flex-row md:justify-between pb-12">
+    <section class=" pt-20 flex md:justify-between justify-center md:w-1/4" >
+     <div class="md:w-auto w-11/12 pl-4">
+        <div class="flex mb-4">
+          <img class="w-4" src="./icons/Vector.svg" alt="logos">
+          <h2 class="pl-1 text-xs font-semibold">Lasles </h2>
+          <span class="text-xs font-bold">VPN</span>
+        </div>
+        <p class="text-xs leading-5"><span class="font-bold">LaslesVPN</span> is a private virtual network 
+          that has unique features and has high security.
+        </p>
+
+        <div class="flex w-20 justify-between mt-4">
+           <img src="./icons/Facebook.png" width="20px" alt="faccebook">
+           <img src="./icons/Instagram.png" width="20px" alt="Instagram">
+           <img src="./icons/Twitter.png" width="20px" alt="Twitter">
+        </div>
+        <p class="text-xs leading-5 mt-4" style="color: #AFB5C0">©2020LaslesVPN</p>
+     </div>
+    </section>
+    <section class="md:flex md:flex-row grid grid-flow-col grid-rows-2 md:pt-20 pt-8 md:w-6/12">
+      <ul class="text-xs leading-8 md:pl-20 pl-12">
+        <li class="font-bold">Product</li>
+        <li>Download</li>
+        <li>Pricing</li>
+        <li>Locations</li>
+        <li>Server</li>
+        <li>Countries</li>
+        <li>Blog</li>
+      </ul>
+      <ul class="text-xs leading-8 md:pl-20 pl-12">
+        <li class="font-bold">Engage</li>
+        <li>LaslesVPN</li>
+        <li>FAQ</li>
+        <li>Tutorials</li>
+        <li>About us</li>
+        <li>Privacy policy</li>
+        <li>Terms of Service</li>
+      </ul>
+      <ul class="text-xs leading-8 pl-20">
+        <li class="font-bold">Earn money</li>
+        <li>Affiliate</li>
+        <li>Become Partner</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+  </footer>
 </body>
 </html>
